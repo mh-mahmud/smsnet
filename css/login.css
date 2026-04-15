@@ -1,0 +1,106 @@
+.success {
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+    color: #3c763d;
+    font-size: 12px;
+    padding: 7px 5px 8px 5px;
+	width:100%;
+	display:inline-block;
+}
+.error {
+    background-color: #f2dede;
+    border-color: #ebccd1;
+    color: #a94442;
+    font-size: 12px;
+    padding: 7px 5px 8px 5px;
+    width:100%;
+    display:inline-block;
+}
+.login {
+  background: #09192A;
+}
+.login .wrapper {
+  width: 362px;
+  height: 500px;
+  margin:auto;
+  margin-top:5%;
+}
+.login .wrapper h1{
+  color: #fff;
+  display: block;
+  font-weight: 300;
+  font-size: 48px;
+  text-align: center;
+  padding: 2px 0;
+  text-decoration: none;
+}
+.login .wrapper h1 > img {
+  margin-top: -8px;
+}
+.login .wrapper .login-body {
+  margin-top: 20px;
+  background: #fff;
+}
+.login .wrapper .login-body form {
+  padding: 0 30px;
+}
+.login .wrapper .login-body h2 {
+  font-weight: 300;
+  color: #333;
+  font-size: 24px;
+  padding: 20px 0px 0px 0px;
+}
+.login .wrapper .login-body .email input, .login .wrapper .login-body .pw input {
+  padding: 8px 12px;
+  height: 35px;
+  width:100%;
+  margin:10px 0;
+  background: #f9f9f9 none repeat scroll 0 0;
+  border: 1px solid #ccc;
+   
+}
+.login .wrapper .login-body .submit {
+	margin-top:10px;
+	width:100%;
+	display: table;
+}
+.login .wrapper .login-body .submit input {
+  display: table-cell;
+}
+
+
+.login .wrapper .login-body .submit .remember {
+  margin-top: 5px;
+  margin-left: 1px;
+}
+.login .wrapper .login-body .submit .remember [class*=icheckbox], .login .wrapper .login-body .submit .remember label {
+  
+}
+.login .wrapper .login-body .submit .remember label {
+  margin-left: 10px;
+}
+.login .wrapper .login-body .forget{
+  margin-top: 20px;
+}
+.login .wrapper .login-body .forget{
+  background: #eee;
+  padding: 10px 0;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  color: #555;
+}
+.login .wrapper .login-body .forget a:hover {
+  background: #ddd;
+}
+.login .wrapper .login-body .forget span {
+  line-height: 30px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.login_result{
+	margin-top:20px;
+  text-align:left;
+  width: 100%;
+}
